@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  margin-top: 40px;
+}
+
+.button-one {
+  border-radius: 50px;
+  padding: 15px 25px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  margin-left: 20px;
+}
+.button-two {
+  border-radius: 50px;
+  padding: 15px 20px;
+  border: 1px solid #fff;
+  background-color: #1d75de;
+  color: #fff;
+  margin-left: 10px;
+}
