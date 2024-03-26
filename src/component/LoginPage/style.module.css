@@ -1,0 +1,150 @@
+body{
+  
+}
+.img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.btn {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+hr{
+    width: 520px;
+}
+
+.btn button {
+  border-radius: 50px;
+  padding: 10px 30px;
+  width: 500px;
+  margin-bottom: 10px;
+  gap: 10px;
+  opacity: 0.9;
+  font-family: "Inter", sans-serif;
+}
+.btn button:hover{
+    opacity: 1;
+    transform: scale(1.01);
+}
+.black {
+  background-color: #000000;
+  color: #ffffff;
+  font-style: 12px;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.blue {
+  background-color: #1877f2;
+  color: #ffffff;
+  font-style: 12px;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.white {
+  color: #878787;
+  background-color: transparent;
+  font-style: 12px;
+  border-color: #000;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.dividerContent {
+  color: #000000;
+  display: flex;
+  margin-left: 20px;
+  justify-content: center;
+
+  justify-items: center;
+  margin-bottom: 10px;
+}
+.divider {
+  width: 240px;
+  font-size: 10px;
+  border: 1 px solid #434040;
+  border-bottom: 1px solid #878787;
+}
+
+.dividerPara {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 0 15px 0 15px;
+}
+
+labels {
+  color: #00000000;
+}
+
+.paraAcc{
+    font-weight: bolder;
+    margin: 5px;
+    color: #000000;
+   display: flex;
+   justify-content: center;
+
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    
+     color: #878787;
+    background-color: transparent;
+    font-style: 12px;
+    border-color: #878787;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px 30px;
+    width: 500px;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    box-shadow: none;
+    
+}
+
+.forgot{
+display: block;
+margin-left: 32%;
+font-size: 16px;
+font-family:  Helvetica;
+color: #000;
+justify-self: self-start;
+justify-content: center;
+text-align: left;
+margin-bottom: 30px;
+}
+.remember{
+    color: #000;
+}
+input{
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap:200px;
+    
+}
+
+.greenBtn{
+    border-radius: 50px;
+  padding: 15px 25px;
+  border: none;
+  background-color: #1ED760;
+  color: #000000;
+  margin-left: 20px;
+}

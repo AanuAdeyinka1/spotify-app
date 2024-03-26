@@ -1,0 +1,33 @@
+.wrapper, .wrapper label, .wrapper input {
+  display:block;
+  width: 60%;
+  margin-left: 215px;
+  padding: 10px 0;
+  color: #000;
+  position: relative;
+   
+ 
+}
+
+.wrapper label{
+    font-family: "inter", sans-serif ;
+    font-weight: 600;
+    color: black;
+    padding-top: 0;
+}
+
+.wrapper input{
+    border: 1px solid #6A6A6A;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 3px #787878;
+    padding: 10px;
+    height: 28px;
+    
+}
+
+.eyeIcon{
+    position: absolute;
+    top: 50px;
+    right: 15%;
+}

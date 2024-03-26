@@ -1,45 +1,20 @@
-// import style from "./Feature.module.css"
-import AdFreeIcon from "../Asset/Images//ad-free-music.svg";
-import OfflinePlayback from "../Asset/Images//offline-playback.svg";
-import PlayEverywhere from "../Asset/Images/play-everywhere.svg";
-import PayYourWay from "../Asset/Images/pay-your-way.svg";
+import style from "./Style.module.css"
+import { feature } from "./Data"
 
 export const Features = () => {
-  const feature = [
-    {
-      title: "Ad-free music listening",
-      image: AdFreeIcon,
-      description: "Enjoy uninterrupted music.",
-    },
-    {
-      title: "Offline playback",
-      image: OfflinePlayback,
-      description: "Save your data by listening offline.",
-    },
-    {
-      title: "Play everywhere",
-      image: PlayEverywhere,
-      description: "Listen on your speakers, TV, and other favorite devices.",
-    },
-    {
-      title: "Pay your way",
-      image: PayYourWay,
-      description: "Prepay with Paytm, UPI, and more.",
-    },
-  ];
-
-  return (
-    <section>
-      <h3>The power of Premium</h3>
-      <div>
-        {Features.map((feature) => (
-          <div>
+  
+  return <section className = {style.feature}>
+      <h3 className = {style.head}>The power of Premium</h3>
+      <div className = {style.list}>
+        {feature.map((feature) => (
+          <div className = {style.item}>
             <img src={feature.image} />
-            <h5>{feature.title}</h5>
-            <p>{feature.description}</p>
+            <div>
+              <h5 className={style.title}>{feature.title}</h5>
+              <p className={style.description}>{feature.description}</p>
+            </div>
           </div>
         ))}
       </div>
     </section>
-  );
 };

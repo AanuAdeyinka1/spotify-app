@@ -1,0 +1,155 @@
+.section {
+  background-color: #efefef;
+  padding: 5%;
+
+  justify-content: center;
+}
+
+.card,
+.discount {
+  background-color: #ffffff;
+  max-width: 269px;
+
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 10px;
+  color: #000;
+  font-size: 16px;
+}
+
+.cardList {
+  display: inline-flex;
+  padding: 0 10px;
+  padding-left: 20px;
+}
+.button {
+  border-radius: 50px;
+  background-color: #000;
+  box-shadow: none;
+  color: #fff;
+  border: none;
+  margin-bottom: -9px;
+  padding: 14px 70px;
+}
+
+.cardTitle {
+  color: #211e1f;
+  font-weight: bold;
+  font-size: 39px;
+  margin-left: 500px;
+}
+.paymentMethod {
+  margin-left: 580px;
+  margin-bottom: 40px;
+}
+.cardPara {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 200;
+  margin-left: 450px;
+}
+
+.free {
+  background-color: #0d72ea;
+  display: inline-block;
+  padding: 5px 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* .card span.free,
+.card span.oneTime {
+  background-color: #0d72ea;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+} */
+
+.oneTime {
+  background-color: #fff;
+  padding: 5px 8px;
+  color: #0d72ea;
+  border: 1px solid #0d72ea;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+h4.planName {
+  font-size: 23px;
+  color: #000;
+}
+
+.para {
+  font-size: 15px;
+  color: #000000;
+}
+
+li {
+  font-size: 15px;
+  color: #000000;
+}
+.header {
+  margin: 0 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.content {
+  padding: 10px;
+  box-shadow: -8px 10px 12px #ddd;
+}
+.content ul {
+  list-style-image: url(/public/images/checkmark.svg);
+}
+
+.content ul li {
+  padding: 5px 10px;
+}
+
+.footer {
+  padding: 10px;
+  color: #535353;
+  font-size: 15px;
+}
+.footer a {
+  color: #535353;
+}
+.learnmore{
+  background-color: #fff;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding: 10px 20px;
+  margin: 20px 0 20px;
+  text-transform: uppercase;
+
+  
+  
+}
+
+.discount { 
+  max-width: none;
+  width: 700px;
+  font-weight: bold;
+  font-size: 23px;
+  gap: 20px;
+  display: flex;
+  padding:  4px 10px;
+  color: #000000;
+  margin-left: 300px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+@media(max-width: 768px){
+  .discount{
+    justify-content: start;
+    text-align: start;
+    
+    padding-bottom: 20px;
+  }
+}

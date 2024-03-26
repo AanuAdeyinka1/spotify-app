@@ -9,11 +9,11 @@ export function Logo(props){
         <a href ="#/dashboard">
         <img src = {whitesvg} /></a>
     )
-  //  } else{
-  //  return (
-  //    <a href="#/dashboard">
-  //      <img src={blacksvg} />
-  //    </a>
-  //  )
+   } else{
+   return (
+     <a href="#/dashboard">
+       <img src={blacksvg} />
+     </a>
+   );
 }
 }

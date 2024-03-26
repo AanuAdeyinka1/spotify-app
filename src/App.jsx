@@ -1,24 +1,52 @@
 import logo from "./logo.svg";
+import { RouterProvider, createBrowserRouter} from 'react-router-dom';
 import "./App.css";
-import { LandingPageHeader } from "./component/LandingPage";
-import { Logo } from "./component/logo";
-import { SectionOne } from "./component/SectionOne/SectionOne";
-import {Button} from "./component/SectionOne/Button"
-import { Features }  from "./component/FeatureSection/FeatureSection"
+import { LandingPageHeader } from "./component/LandingPage/LandingPage.js"
+import { LoginPage } from "./component/LoginPage/Login.jsx";
 
 
-function App() {
+// const router = createBrowserRouter([
+//   {
+//     path: '',
+//     component: LandingPageHeader,
+//   },
+//   {
+//     path: "login",
+//     Element: <LoginPage />,
+//   },
+// ]);
+
+// export function App() {
+//   return <RouterProvider router ={router} />
+// }
+
+// export default App;
+
+const router = createBrowserRouter([
+  {
+    path: '',
+    component: LandingPageHeader,
+  },
+  {
+    path: "login",
+    Element: <LoginPage />,
+  },
+]);
+
+export function App() {
   return (
-    <div>
-      <LandingPageHeader />
-      <Logo />
-      <SectionOne><Button></Button></SectionOne>
-      
-    </div>
+    <LandingPageHeader />
   );
+
 }
 
 export default App;
 
 
+// export function App (){
+//   return(
+//     <LandingPageHeader />
+//   )
+// }
 
+// export default App;
