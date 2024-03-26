@@ -42,7 +42,7 @@ export const LandingPageHeader = () => {
       <SectionOne />
       <Features />
       <PricingSection />
-      {/* <LoginPage /> */}
+      <LoginPage />
     </div>
   );
 };
