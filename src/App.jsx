@@ -5,47 +5,30 @@ import { LandingPageHeader } from "./component/LandingPage/LandingPage.js"
 import { LoginPage } from "./component/LoginPage/Login.jsx";
 
 
-// const router = createBrowserRouter([
-//   {
-//     path: '',
-//     component: LandingPageHeader,
-//   },
-//   {
-//     path: "login",
-//     Element: <LoginPage />,
-//   },
-// ]);
-
-// export function App() {
-//   return <RouterProvider router ={router} />
-// }
-
-// export default App;
-
 const router = createBrowserRouter([
   {
     path: '',
     component: LandingPageHeader,
   },
   {
-    path: "login",
+    path: "/login",
     Element: <LoginPage />,
   },
 ]);
 
 export function App() {
-  return (
-    <LandingPageHeader />
-  );
-
+  return <RouterProvider router ={router} />
 }
 
 export default App;
 
 
+
+
 // export function App (){
 //   return(
 //     <LandingPageHeader />
+    
 //   )
 // }
 
